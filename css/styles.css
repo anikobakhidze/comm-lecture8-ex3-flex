@@ -1,0 +1,75 @@
+.flex {
+  display: flex;
+}
+.container {
+  flex-direction: row;
+  width: 700px;
+  height: 310px;
+  padding: 25px;
+  background-color: #dbdeff;
+}
+.first-wrapper {
+  flex-direction: column;
+  width: 120px;
+  height: 260px;
+  margin-right: 10px;
+}
+.box1 {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #d30557;
+}
+.box2 {
+  width: 100%;
+  height: 150px;
+  background-color: #ea6700;
+}
+.second-wrapper {
+  flex-direction: column;
+  width: 290px;
+  height: 260px;
+  margin-right: 10px;
+}
+.sub-second-wrapper {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.box3 {
+  width: 200px;
+  height: 100px;
+  margin-right: 10px;
+  background-color: #00aba5;
+}
+.box4 {
+  width: 80px;
+  height: 100px;
+  background-color: #009a78;
+}
+.box5 {
+  width: 100%;
+  height: 100%;
+  background-color: #ff8961;
+}
+.box6,
+.box7,
+.box8 {
+  height: 100%;
+}
+.box6,
+.box7 {
+  margin-right: 10px;
+}
+.box6 {
+  width: 80px;
+  background-color: #2196d9;
+}
+.box7 {
+  width: 110px;
+  background-color: #1a6d9f;
+}
+.box8 {
+  width: 10px;
+  background-color: #5ac1fc;
+}
